@@ -13,6 +13,7 @@ export default function Login({ setToken }) {
   return (
     <div>
       <h2>Login</h2>
+      <p>Demo: no account yet? Register with any email — no verification email is sent.</p>
       <input placeholder="Email" onChange={e => setEmail(e.target.value)} />
       <input placeholder="Password" type="password" onChange={e => setPassword(e.target.value)} />
       <button onClick={login}>Login</button>

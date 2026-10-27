@@ -19,6 +19,7 @@ export default function Register({ onRegistered }) {
   return (
     <div>
       <h2>Register</h2>
+      <p>Demo: any email works — no verification email is sent.</p>
       <input placeholder="Name" onChange={e => setName(e.target.value)} />
       <input placeholder="Email" onChange={e => setEmail(e.target.value)} />
       <input placeholder="Password" type="password" onChange={e => setPassword(e.target.value)} />
