@@ -5,6 +5,8 @@ A personal full-stack task management portal built with the MERN stack
 completed in October 2026: users can register, log in, and manage their own
 tasks through a small REST API with JWT authentication.
 
+Live demo: https://task-flow-portal-dac9.onrender.com (frontend) — API at https://taskflow-api-hikg.onrender.com
+
 ## Features
 
 - User registration and login with JWT authentication
